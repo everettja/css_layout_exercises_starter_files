@@ -1,1 +1,75 @@
+.container {
+	padding-right: 60px;
+	padding-left: 60px;
+}
 
+nav {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	background-color: grey;
+}
+
+body {
+	background-image: url("C:/Users/Jonathan/Desktop/projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+nav ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav .cat-logo {
+	height: 50px;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+
+nav a:hover {
+	color: black;
+}
+
+nav li::after {
+	content: "|";
+	margin-left: 5px;
+}
+
+.box {
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 150px;
+}
+
+.spacecat, .spacedog {
+	position: absolute;
+	width: 200px;
+}
+
+.spacecat {
+	left: -90px;
+	top: -90px;
+}
+
+.spacedog {
+	right: -60px;
+	bottom: -120px;
+}
+
+main {
+	padding-top: 90px;
+	min-width: 1000px;
+}
