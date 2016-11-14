@@ -11,7 +11,7 @@ nav {
 }
 
 body {
-	background-image: url("C:/Users/Jonathan/Desktop/projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg");
+	background-image: url("../images/outerspace_landscape.jpeg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
